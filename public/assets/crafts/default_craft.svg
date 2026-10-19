@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="defBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F3"/>
+      <stop offset="100%" stop-color="#EDE4D5"/>
+    </linearGradient>
+    <linearGradient id="crestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123F32"/>
+      <stop offset="100%" stop-color="#24664D"/>
+    </linearGradient>
+    <filter id="crestShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#123F32" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#defBg)"/>
+  <!-- Decorative Mandala Backdrop -->
+  <g stroke="#C45D3A" stroke-width="1.5" fill="none" opacity="0.3" transform="translate(400,300)">
+    <circle r="180"/>
+    <circle r="140" stroke-dasharray="8,6"/>
+    <circle r="90"/>
+    <polygon points="0,-180 127,-127 180,0 127,127 0,180 -127,127 -180,0 -127,-127"/>
+  </g>
+  <!-- Central KalaSetu Craft Shield -->
+  <g filter="url(#crestShadow)">
+    <rect x="250" y="160" width="300" height="280" rx="36" fill="url(#crestGrad)"/>
+    <!-- Hands & Heritage Lamp Emblem -->
+    <path d="M400,210 C380,240 360,280 360,320 C360,350 380,370 400,370 C420,370 440,350 440,320 C440,280 420,240 400,210 Z" fill="#F8F5EF" opacity="0.95"/>
+    <circle cx="400" cy="300" r="16" fill="#C45D3A"/>
+    <circle cx="400" cy="300" r="8" fill="#FCE7D6"/>
+    <path d="M400,210 C395,200 400,185 400,175 C405,185 405,200 400,210 Z" fill="#F39C12"/>
+    <text x="400" y="415" text-anchor="middle" font-family="'Playfair Display', serif" font-size="20" font-weight="700" fill="#F8F5EF" letter-spacing="1">KALASETU AI</text>
+  </g>
+  <!-- Category Badge -->
+  <rect x="40" y="40" rx="20" ry="20" width="220" height="42" fill="#123F32" opacity="0.9"/>
+  <text x="56" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#F8F5EF">AUTHENTIC CRAFT</text>
+  <text x="40" y="555" font-family="'Playfair Display', serif" font-size="22" font-style="italic" fill="#123F32">Preserving Living Heritage &amp; Fair Wages</text>
+</svg>

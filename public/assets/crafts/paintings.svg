@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="artBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#F2EBDD"/>
+    </linearGradient>
+    <linearGradient id="canvasGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7EEDC"/>
+      <stop offset="100%" stop-color="#EADBBE"/>
+    </linearGradient>
+    <filter id="artShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#462E1A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#artBg)"/>
+  <!-- Teakwood Picture Frame -->
+  <rect x="150" y="90" width="500" height="420" rx="12" fill="#582D16" filter="url(#artShadow)"/>
+  <rect x="175" y="115" width="450" height="370" fill="url(#canvasGrad)"/>
+  <!-- Geometric Madhubani & Warli Border -->
+  <rect x="190" y="130" width="420" height="340" fill="none" stroke="#9E2A2B" stroke-width="4"/>
+  <rect x="198" y="138" width="404" height="324" fill="none" stroke="#242720" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- Central Traditional Peacock & Tree of Life Motif -->
+  <g stroke="#242720" stroke-width="2.5" fill="none">
+    <!-- Tree Trunk & Spirals -->
+    <path d="M400,430 Q390,340 400,280 Q350,250 330,220 M400,280 Q450,240 480,210 M400,320 Q440,300 460,280 M400,330 Q360,310 330,290" stroke-width="5" stroke="#9E2A2B"/>
+    <!-- Sun Motif -->
+    <circle cx="270" cy="200" r="28" fill="#F4A261" stroke="#9E2A2B" stroke-width="3"/>
+    <circle cx="270" cy="200" r="14" fill="#E76F51"/>
+    <!-- Peacock Body -->
+    <path d="M450,380 C410,380 400,340 430,310 C445,295 465,290 480,310 C490,325 500,360 450,380 Z" fill="#2A9D8F" stroke="#242720"/>
+    <circle cx="475" cy="305" r="3" fill="#242720"/>
+    <path d="M485,305 L498,308" stroke="#E76F51" stroke-width="3"/>
+    <!-- Peacock Feather Fan -->
+    <path d="M420,340 C380,330 360,300 370,270 C390,260 410,290 430,310 Z" fill="#E9C46A" stroke="#242720"/>
+    <circle cx="380" cy="285" r="6" fill="#264653"/>
+    <path d="M430,330 C400,300 390,260 410,230 C430,230 440,270 445,300 Z" fill="#F4A261" stroke="#242720"/>
+    <circle cx="410" cy="255" r="6" fill="#9E2A2B"/>
+    <!-- Traditional Warli Dancing Dancers Silhouette -->
+    <g fill="#242720" stroke="#242720" stroke-width="2">
+      <!-- Warli Figure 1 -->
+      <circle cx="250" cy="390" r="6"/>
+      <polygon points="250,396 242,416 258,416"/>
+      <polygon points="250,436 242,416 258,416"/>
+      <line x1="242" y1="416" x2="230" y2="406"/>
+      <line x1="258" y1="416" x2="270" y2="406"/>
+      <line x1="242" y1="436" x2="236" y2="455"/>
+      <line x1="258" y1="436" x2="264" y2="455"/>
+      <!-- Warli Figure 2 -->
+      <circle cx="300" cy="390" r="6"/>
+      <polygon points="300,396 292,416 308,416"/>
+      <polygon points="300,436 292,416 308,416"/>
+      <line x1="292" y1="416" x2="280" y2="406"/>
+      <line x1="308" y1="416" x2="320" y2="406"/>
+      <line x1="292" y1="436" x2="286" y2="455"/>
+      <line x1="308" y1="436" x2="314" y2="455"/>
+    </g>
+  </g>
+  <!-- Category Badge -->
+  <rect x="40" y="40" rx="20" ry="20" width="220" height="42" fill="#123F32" opacity="0.9"/>
+  <text x="56" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#F8F5EF">PAINTINGS &amp; FOLK ART</text>
+  <text x="40" y="555" font-family="'Playfair Display', serif" font-size="22" font-style="italic" fill="#751A1B">Authentic Madhubani &amp; Warli Folk Art</text>
+</svg>

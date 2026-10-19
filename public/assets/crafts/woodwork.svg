@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="woodBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F4"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </linearGradient>
+    <linearGradient id="sheeshamGrad" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#8E532B"/>
+      <stop offset="50%" stop-color="#693717"/>
+      <stop offset="100%" stop-color="#46220B"/>
+    </linearGradient>
+    <linearGradient id="brassInlay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8C86A"/>
+      <stop offset="50%" stop-color="#FFEBB3"/>
+      <stop offset="100%" stop-color="#C79F32"/>
+    </linearGradient>
+    <filter id="woodShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#3B1E0A" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#woodBg)"/>
+  <ellipse cx="400" cy="510" rx="250" ry="22" fill="#D5C5B3" opacity="0.6"/>
+  <!-- Hand-carved Wooden Keepsake Box with Brass Inlay -->
+  <g filter="url(#woodShadow)">
+    <!-- Box Base -->
+    <path d="M220,330 L580,330 L550,470 L250,470 Z" fill="url(#sheeshamGrad)"/>
+    <!-- Lid (Perspective) -->
+    <path d="M190,260 L610,260 L580,330 L220,330 Z" fill="#995D33"/>
+    <!-- Lid Top Face -->
+    <path d="M250,180 L550,180 L610,260 L190,260 Z" fill="url(#sheeshamGrad)"/>
+    <!-- Brass Inlay Borders & Floral Medallion -->
+    <polygon points="265,195 535,195 585,250 215,250" fill="none" stroke="url(#brassInlay)" stroke-width="3"/>
+    <!-- Central Brass Tarkashi / Carved Floral Emblem -->
+    <circle cx="400" cy="222" r="22" fill="none" stroke="url(#brassInlay)" stroke-width="3"/>
+    <circle cx="400" cy="222" r="7" fill="url(#brassInlay)"/>
+    <circle cx="380" cy="222" r="4" fill="url(#brassInlay)"/>
+    <circle cx="420" cy="222" r="4" fill="url(#brassInlay)"/>
+    <circle cx="400" cy="202" r="4" fill="url(#brassInlay)"/>
+    <circle cx="400" cy="242" r="4" fill="url(#brassInlay)"/>
+    <!-- Front Latch & Carved Panels -->
+    <rect x="388" y="320" width="24" height="36" rx="4" fill="url(#brassInlay)"/>
+    <circle cx="400" cy="344" r="4" fill="#46220B"/>
+    <!-- Chiseled Relief Flourishes -->
+    <path d="M280,380 Q400,410 520,380" stroke="#FFEBB3" stroke-width="2.5" fill="none" opacity="0.6" stroke-dasharray="6,6"/>
+    <path d="M290,420 Q400,450 510,420" stroke="#FFEBB3" stroke-width="2.5" fill="none" opacity="0.6" stroke-dasharray="6,6"/>
+  </g>
+  <!-- Category Badge -->
+  <rect x="40" y="40" rx="20" ry="20" width="220" height="42" fill="#123F32" opacity="0.9"/>
+  <text x="56" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#F8F5EF">WOODEN HANDICRAFTS</text>
+  <text x="40" y="555" font-family="'Playfair Display', serif" font-size="22" font-style="italic" fill="#5E3113">Hand-carved Teak &amp; Sheesham Woodwork</text>
+</svg>

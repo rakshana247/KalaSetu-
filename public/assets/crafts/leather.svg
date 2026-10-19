@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="leatherBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCF9F5"/>
+      <stop offset="100%" stop-color="#EBE3D6"/>
+    </linearGradient>
+    <linearGradient id="tanLeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A8572A"/>
+      <stop offset="50%" stop-color="#843A14"/>
+      <stop offset="100%" stop-color="#552109"/>
+    </linearGradient>
+    <filter id="leatherShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#3B1806" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#leatherBg)"/>
+  <ellipse cx="400" cy="510" rx="230" ry="22" fill="#D2C3B0" opacity="0.6"/>
+  <!-- Shantiniketan / Kolhapuri Handcrafted Leather Messenger Bag & Mojari -->
+  <g filter="url(#leatherShadow)">
+    <!-- Satchel Main Body -->
+    <rect x="230" y="240" width="340" height="230" rx="24" fill="url(#tanLeather)"/>
+    <!-- Foldover Flap -->
+    <path d="M225,240 L575,240 L575,370 C575,410 490,430 400,430 C310,430 225,410 225,370 Z" fill="#92431B"/>
+    <!-- Saddle Stitching Around Flap Edge -->
+    <path d="M238,250 L562,250 L562,365 C562,398 485,416 400,416 C315,416 238,398 238,365 Z" fill="none" stroke="#FCE2B8" stroke-width="2.5" stroke-dasharray="6,5"/>
+    <!-- Shantiniketan Embossed Batik Motif -->
+    <circle cx="400" cy="335" r="32" fill="none" stroke="#552109" stroke-width="3"/>
+    <circle cx="400" cy="335" r="22" fill="#BA6433"/>
+    <path d="M390,325 Q400,310 410,325 Q425,335 410,345 Q400,360 390,345 Q375,335 390,325 Z" fill="#FCE2B8"/>
+    <!-- Antique Brass Buckles & Straps -->
+    <rect x="300" y="380" width="16" height="65" rx="3" fill="#692C0F"/>
+    <rect x="484" y="380" width="16" height="65" rx="3" fill="#692C0F"/>
+    <rect x="296" y="395" width="24" height="22" rx="4" fill="none" stroke="#D4AF37" stroke-width="4"/>
+    <rect x="480" y="395" width="24" height="22" rx="4" fill="none" stroke="#D4AF37" stroke-width="4"/>
+    <!-- Leather Shoulder Strap Arc -->
+    <path d="M230,280 C210,130 590,130 570,280" fill="none" stroke="#692C0F" stroke-width="16" stroke-linecap="round"/>
+    <path d="M230,280 C210,130 590,130 570,280" fill="none" stroke="#FCE2B8" stroke-width="2" stroke-dasharray="8,6"/>
+  </g>
+  <!-- Category Badge -->
+  <rect x="40" y="40" rx="20" ry="20" width="220" height="42" fill="#123F32" opacity="0.9"/>
+  <text x="56" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#F8F5EF">LEATHER CRAFTS</text>
+  <text x="40" y="555" font-family="'Playfair Display', serif" font-size="22" font-style="italic" fill="#66290C">Vegetable-tanned Shantiniketan Leather</text>
+</svg>

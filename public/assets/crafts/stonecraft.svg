@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stoneBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBFBF9"/>
+      <stop offset="100%" stop-color="#EBECE8"/>
+    </linearGradient>
+    <linearGradient id="soapstoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D3D8D3"/>
+      <stop offset="50%" stop-color="#A8B0A8"/>
+      <stop offset="100%" stop-color="#6E766E"/>
+    </linearGradient>
+    <filter id="stoneShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#3C423C" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#stoneBg)"/>
+  <ellipse cx="400" cy="520" rx="230" ry="22" fill="#CFD4CF" opacity="0.6"/>
+  <!-- Hand-carved Soapstone / Agra Marble Jali Tealight Lantern & Sculpture -->
+  <g filter="url(#stoneShadow)">
+    <!-- Base Plinth -->
+    <path d="M260,490 L540,490 L520,440 L280,440 Z" fill="url(#soapstoneGrad)"/>
+    <!-- Octagonal Lantern Body -->
+    <path d="M280,440 L520,440 L490,220 L310,220 Z" fill="url(#soapstoneGrad)"/>
+    <!-- Dome / Shikhara Roof -->
+    <path d="M300,220 C300,140 400,100 400,100 C400,100 500,140 500,220 Z" fill="#8E978E"/>
+    <circle cx="400" cy="95" r="10" fill="#E2E7E2"/>
+    <!-- Perforated Jali Fretted Floral Windows (Emitting Warm Candle Glow) -->
+    <g fill="#FFE9A3" stroke="#505850" stroke-width="2.5">
+      <!-- Central Arch Window -->
+      <path d="M370,410 L370,280 C370,250 430,250 430,280 L430,410 Z"/>
+      <!-- Left Lattice Opening -->
+      <path d="M330,390 L330,300 C330,280 360,280 360,300 L360,390 Z"/>
+      <!-- Right Lattice Opening -->
+      <path d="M440,390 L440,300 C440,280 470,280 470,300 L470,390 Z"/>
+    </g>
+    <!-- Jali Pierced Cutout Lattice Detailing -->
+    <g fill="#505850" opacity="0.7">
+      <circle cx="400" cy="300" r="4"/>
+      <circle cx="400" cy="330" r="4"/>
+      <circle cx="400" cy="360" r="4"/>
+      <circle cx="385" cy="315" r="3.5"/>
+      <circle cx="415" cy="315" r="3.5"/>
+      <circle cx="385" cy="345" r="3.5"/>
+      <circle cx="415" cy="345" r="3.5"/>
+    </g>
+  </g>
+  <!-- Category Badge -->
+  <rect x="40" y="40" rx="20" ry="20" width="220" height="42" fill="#123F32" opacity="0.9"/>
+  <text x="56" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#F8F5EF">STONE CRAFTS &amp; CARVINGS</text>
+  <text x="40" y="555" font-family="'Playfair Display', serif" font-size="22" font-style="italic" fill="#4B534B">Hand-chiseled Soapstone &amp; Marble Jali</text>
+</svg>

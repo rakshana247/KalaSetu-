@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --color-ivory: #F8F5EF;
+  --color-forest-primary: #123F32;
+  --color-forest-secondary: #24664D;
+  --color-terracotta: #C45D3A;
+  --color-main-text: #242720;
+  --color-secondary-text: #6F716A;
+  --color-border-warm: #E8E1D7;
+}
+
+@layer base {
+  body {
+    background-color: #F8F5EF;
+    color: #242720;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom utility colors */
+.bg-ivory { background-color: #F8F5EF; }
+.bg-forest { background-color: #123F32; }
+.bg-forest-light { background-color: #24664D; }
+.bg-terracotta { background-color: #C45D3A; }
+.border-warm { border-color: #E8E1D7; }
+.text-forest { color: #123F32; }
+.text-terracotta { color: #C45D3A; }
+.text-main { color: #242720; }
+.text-sub { color: #6F716A; }

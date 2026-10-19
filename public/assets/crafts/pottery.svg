@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="potteryBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F3"/>
+      <stop offset="100%" stop-color="#EFE6DA"/>
+    </linearGradient>
+    <linearGradient id="clayGrad" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#D96B43"/>
+      <stop offset="50%" stop-color="#BA5329"/>
+      <stop offset="100%" stop-color="#8C3615"/>
+    </linearGradient>
+    <linearGradient id="terracottaDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A2441E"/>
+      <stop offset="100%" stop-color="#6F280D"/>
+    </linearGradient>
+    <filter id="clayShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#552410" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#potteryBg)"/>
+  <ellipse cx="400" cy="520" rx="260" ry="24" fill="#D8C7B5" opacity="0.6"/>
+  <!-- Main Terracotta Vase -->
+  <g filter="url(#clayShadow)">
+    <!-- Base Pot -->
+    <path d="M280,480 C270,390 230,340 230,280 C230,190 290,170 330,170 L470,170 C510,170 570,190 570,280 C570,340 530,390 520,480 Z" fill="url(#clayGrad)"/>
+    <!-- Rim / Neck -->
+    <path d="M310,170 C310,150 340,140 400,140 C460,140 490,150 490,170 C490,185 460,195 400,195 C340,195 310,185 310,170 Z" fill="#BA5329"/>
+    <ellipse cx="400" cy="165" rx="70" ry="14" fill="#5F220B"/>
+    <!-- Decorative Hand-carved Motifs -->
+    <path d="M265,300 Q400,340 535,300" stroke="#FCE7D6" stroke-width="4" fill="none" opacity="0.85" stroke-dasharray="8,6"/>
+    <path d="M255,340 Q400,380 545,340" stroke="#FCE7D6" stroke-width="4" fill="none" opacity="0.85"/>
+    <!-- Traditional Floral Stamp Motifs -->
+    <circle cx="340" cy="340" r="14" fill="#FCE7D6" opacity="0.9"/>
+    <circle cx="400" cy="348" r="16" fill="#FCE7D6" opacity="0.9"/>
+    <circle cx="460" cy="340" r="14" fill="#FCE7D6" opacity="0.9"/>
+    <circle cx="340" cy="340" r="6" fill="#8C3615"/>
+    <circle cx="400" cy="348" r="7" fill="#8C3615"/>
+    <circle cx="460" cy="340" r="6" fill="#8C3615"/>
+    <!-- Clay Kettle / Cup Side Piece -->
+    <path d="M530,390 C590,400 620,440 610,480 C590,500 520,490 515,470 Z" fill="url(#clayGrad)" opacity="0.9"/>
+    <ellipse cx="560" cy="425" rx="35" ry="10" fill="#752B0F"/>
+  </g>
+  <!-- Craft Badge -->
+  <rect x="40" y="40" rx="20" ry="20" width="220" height="42" fill="#123F32" opacity="0.9"/>
+  <text x="56" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#F8F5EF">POTTERY & CERAMICS</text>
+  <text x="40" y="555" font-family="'Playfair Display', serif" font-size="22" font-style="italic" fill="#8C3615">KalaSetu Heritage Pottery</text>
+</svg>

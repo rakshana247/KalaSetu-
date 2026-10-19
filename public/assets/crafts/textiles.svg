@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="textileBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F5F0"/>
+      <stop offset="100%" stop-color="#ECE5D8"/>
+    </linearGradient>
+    <linearGradient id="indigoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#234668"/>
+      <stop offset="50%" stop-color="#1B3651"/>
+      <stop offset="100%" stop-color="#102336"/>
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#F3E5AB"/>
+      <stop offset="100%" stop-color="#C59B27"/>
+    </linearGradient>
+    <pattern id="weavePattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0,10 L20,10 M10,0 L10,20" stroke="#375D84" stroke-width="2" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#textileBg)"/>
+  <g transform="rotate(-6 400 300)">
+    <!-- Folded Handloom Saree / Stole Fabric -->
+    <rect x="180" y="140" width="460" height="340" rx="16" fill="url(#indigoGrad)"/>
+    <rect x="180" y="140" width="460" height="340" rx="16" fill="url(#weavePattern)"/>
+    <!-- Zari Gold Border -->
+    <rect x="180" y="400" width="460" height="60" fill="url(#goldBorder)"/>
+    <!-- Intricate Traditional Pallu Jaal Motifs -->
+    <g fill="#F3E5AB" opacity="0.9">
+      <circle cx="230" cy="430" r="10"/>
+      <circle cx="280" cy="430" r="10"/>
+      <circle cx="330" cy="430" r="10"/>
+      <circle cx="380" cy="430" r="10"/>
+      <circle cx="430" cy="430" r="10"/>
+      <circle cx="480" cy="430" r="10"/>
+      <circle cx="530" cy="430" r="10"/>
+      <circle cx="580" cy="430" r="10"/>
+      <!-- Floral Butas on Stole -->
+      <path d="M260,220 C260,200 280,190 280,210 C280,190 300,200 300,220 C300,240 280,250 280,250 C280,250 260,240 260,220 Z"/>
+      <path d="M380,250 C380,230 400,220 400,240 C400,220 420,230 420,250 C420,270 400,280 400,280 C400,280 380,270 380,250 Z"/>
+      <path d="M500,210 C500,190 520,180 520,200 C520,180 540,190 540,210 C540,230 520,240 520,240 C520,240 500,230 500,210 Z"/>
+    </g>
+    <!-- Fringe / Tassels -->
+    <path d="M180,480 L180,505 M210,480 L210,505 M240,480 L240,505 M270,480 L270,505 M300,480 L300,505 M330,480 L330,505 M360,480 L360,505 M390,480 L390,505 M420,480 L420,505 M450,480 L450,505 M480,480 L480,505 M510,480 L510,505 M540,480 L540,505 M570,480 L570,505 M600,480 L600,505 M630,480 L630,505" stroke="#C59B27" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- Category Badge -->
+  <rect x="40" y="40" rx="20" ry="20" width="220" height="42" fill="#123F32" opacity="0.9"/>
+  <text x="54" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#F8F5EF">HANDLOOM TEXTILES</text>
+  <text x="40" y="555" font-family="'Playfair Display', serif" font-size="22" font-style="italic" fill="#1B3651">Traditional Handloom Weaving</text>
+</svg>

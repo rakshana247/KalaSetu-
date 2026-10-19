@@ -1,0 +1,6 @@
+{
+  "name": "KalaSetu AI",
+  "description": "Ethical AI photo-to-catalogue generator, fair pricing calculator, and direct artisan marketplace for traditional crafts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
